@@ -1,0 +1,13 @@
+soccer_538:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('snowflake_trial_account') }}"
+      user: dbt_user
+      password: "{{ env_var('dbt_user_password') }}"
+      role: dbt_dev_role
+      database: dbt_hol_dev
+      warehouse: dbt_dev_wh
+      schema: public
+      threads: 200
