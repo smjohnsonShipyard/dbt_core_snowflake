@@ -1,1 +1,1 @@
-select * from "DBT_HOL_DEV"."PUBLIC"."stg_football_rankings"
+select * from "DBT_HOL_DEV"."PUBLIC"."STG_FOOTBALL_RANKINGS"
