@@ -9,5 +9,5 @@ soccer_538:
       role: dbt_dev_role
       database: dbt_hol_dev
       warehouse: dbt_dev_wh
-      schema: PUBLIC
+      schema: soccer_538
       threads: 200
